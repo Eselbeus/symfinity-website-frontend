@@ -8,8 +8,17 @@
   pointer-events: none;
 }
 
+.main-pic {
+  width: 100%;
+}
+
+.site-title {
+  visibility: hidden;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #000000;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -21,6 +30,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.headline-line {
+  display: flex;
+}
+
+.author {
+  font-size: 0.8rem;
+  text-align: right;
+  margin-left: 10%;
 }
 
 @keyframes App-logo-spin {
