@@ -11,11 +11,10 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
-  <PictureFrame />
-  <Nav />
-  <Route exact path='/shows' component={Shows}/>
-  <Route exact path='/bio' component={Bio}/>
-  <Route exact path='/' component={App}/>
+    <Nav />
+    <Route exact path='/shows' component={Shows}/>
+    <Route exact path='/bio' component={Bio}/>
+    <Route exact path='/' component={App}/>
 
   </Router>, document.getElementById('root'));
 

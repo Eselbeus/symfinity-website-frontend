@@ -1,6 +1,7 @@
 import React from 'react';
 import symfinimage from "./images/symfinity2.jpeg";
 import NewsUpdate from './components/NewsUpdate';
+import PictureFrame from './components/PictureFrame'
 
 import './App.css';
 
@@ -64,6 +65,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+        <PictureFrame />
         <header className="App-header">
           <h1 className="site-title">Symfinity</h1>
           <div className="news">

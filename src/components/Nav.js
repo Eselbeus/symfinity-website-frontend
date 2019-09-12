@@ -5,7 +5,7 @@ import '../App.css';
 class Nav extends React.Component {
   render(){
     return (
-      <nav className="navBar">
+      <nav className="nav-bar">
         <NavLink className="nav-elem" to="/">HOME</NavLink>
         <NavLink className="nav-elem" to="/bio">BIO</NavLink>
         <NavLink className="nav-elem" to="/shows">SHOWS</NavLink>
