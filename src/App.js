@@ -64,7 +64,7 @@ class App extends React.Component {
 
 
     return (
-      <div className="App">
+      <div className="App component">
         <PictureFrame />
         <header className="App-header">
           <h1 className="site-title">Symfinity</h1>

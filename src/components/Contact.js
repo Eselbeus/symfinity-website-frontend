@@ -3,9 +3,9 @@ import Header from './Header'
 
 const Contact = () => {
   return (
-    <div>
+    <div className="component">
       <Header />
-      <h2 className="page-title">Get In Touch</h2>
+      <h1 className="page-title">Get In Touch</h1>
     </div>
   )
 }

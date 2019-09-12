@@ -3,9 +3,9 @@ import Header from './Header'
 
 const Music = () => {
   return (
-    <div>
+    <div className="component">
       <Header />
-      <h2 className="page-title">Music</h2>
+      <h1 className="page-title">Music</h1>
     </div>
   )
 }

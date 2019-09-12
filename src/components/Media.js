@@ -3,9 +3,9 @@ import Header from './Header'
 
 const Media = () => {
   return (
-    <div>
+    <div className="component">
       <Header />
-      <h2 className="page-title">Media</h2>
+      <h1 className="page-title">Media</h1>
     </div>
   )
 }

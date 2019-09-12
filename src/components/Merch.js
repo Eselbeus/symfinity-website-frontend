@@ -3,9 +3,9 @@ import Header from './Header'
 
 const Merch = () => {
   return (
-    <div>
+    <div className="component">
       <Header />
-      <h2 className="page-title">Merch</h2>
+      <h1 className="page-title">Merch</h1>
     </div>
   )
 }

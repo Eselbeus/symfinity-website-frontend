@@ -3,9 +3,9 @@ import Header from './Header'
 
 const Shows = () => {
   return (
-    <div>
+    <div className="component">
       <Header />
-      <h2 className="page-title">Shows</h2>
+      <h1 className="page-title">Shows</h1>
     </div>
   )
 }
