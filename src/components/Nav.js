@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Link, NavLink, Router } from 'react-router-dom'
-
+import '../App.css';
 
 class Nav extends React.Component {
   render(){

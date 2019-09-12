@@ -50,3 +50,17 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  position: fixed;
+  font-size: 0.8rem;
+  right: 10%;
+  top: 2rem;
+}
+
+.nav-elem {
+  color: #333333;
+  font-family: "Montserrat";
+  padding: 1.2rem;
+  text-decoration: none;
+}
