@@ -3,7 +3,7 @@ import React from 'react'
 const Shows = () => {
   return (
     <div>
-      <h2>Shows</h2>
+      <h2 className="page-title">Shows</h2>
     </div>
   )
 }
