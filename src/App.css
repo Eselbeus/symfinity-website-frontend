@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
@@ -51,22 +52,58 @@
   }
 }
 
+.component {
+  background-color: black;
+}
+
+.header-background {
+  background-color: white;
+  height: 7rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  margin-bottom: -2rem;
+}
+
 .nav-bar {
   position: absolute;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   right: 10%;
-  top: 2rem;
+  top: 1.6rem;
   padding: 1rem;
 }
 
 .nav-elem {
   color: #333333;
   padding: 1.2rem;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
   text-decoration: none;
 }
 
 .page-title {
-  padding: 1rem;
+  text-align: center;
+  padding: 3rem;
   background-color: #EEE;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.important-text {
+  font-family: "Montserrat", sans-serif;
+  color: #444;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  line-height: 2rem;
+}
+
+.text {
+  font-family: "Montserrat", sans-serif;
+  color: #888;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  font-size: 1rem;
+  line-height: 2rem;
 }
