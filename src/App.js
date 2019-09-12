@@ -36,7 +36,7 @@ class App extends React.Component {
     .then(res => {
       this.setState({
         authors: res
-      }, console.log(res, "hi"))
+      })
     })
   }
 
@@ -47,7 +47,6 @@ class App extends React.Component {
     if (this.state != null){
       news = this.state.newsItems
       authors = this.state.authors
-      console.log("this thing!!!", authors)
       if (news != undefined){
         news = news.map(item => {
           if (this.state.authors != undefined){
@@ -58,10 +57,7 @@ class App extends React.Component {
           return <NewsUpdate item={item} author={author}/>
         })
       }
-      authors = this.state.authors
-
     }
-    console.log(news)
 
 
 
@@ -75,9 +71,13 @@ class App extends React.Component {
           {news}
           <h6>All News</h6>
           <h2>Recent Video</h2>
+          <hr/>
           <h2>Shows</h2>
+          <hr/>
           <h2>Music</h2>
+          <hr/>
           <h2>The Band</h2>
+          <hr/>
 
 
           </div>

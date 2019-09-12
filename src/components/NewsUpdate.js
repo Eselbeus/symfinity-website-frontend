@@ -3,7 +3,6 @@ import React from 'react'
 import '../App.css';
 
 const NewsUpdate = (props) => {
-  console.log(props.item.headline, "the props!")
   return (
     <div>
       <span className="headline-line"><h2>{props.item.headline}</h2><h6 className="author">by {props.author != undefined ? props.author.name : ''}</h6></span>
