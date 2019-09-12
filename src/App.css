@@ -52,7 +52,7 @@
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   font-size: 0.8rem;
   right: 10%;
   top: 2rem;
