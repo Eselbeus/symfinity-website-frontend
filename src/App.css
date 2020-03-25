@@ -325,6 +325,9 @@ a {
   .hamburgerDropDown {
     display: none;
   }
+  .hamburgerDiv {
+    display: none;
+  }
 }
 
 .news {
