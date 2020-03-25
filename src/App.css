@@ -328,7 +328,7 @@ a {
   .hamburgerDiv {
     display: none;
   }
-  .nav > div {
+  .nav-bar > div {
     display: none;
   }
 }
