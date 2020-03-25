@@ -83,7 +83,7 @@ class App extends React.Component {
           <h1 className="site-title">Symfinity</h1>
           <div className="news">
           <h2>Latest News</h2>
-          <p className="text news">Symfinity just released new album Anthem!!!! Get it on <a href="http://symfinity.bandcamp.com">Bandcamp</a> now! Also the CD is available for now at CD Baby. Tracks are streamable on Spotify/Deezer.</p>
+          <p className="text news">Symfinity just released a new album called Anthem!!!! Get it on <a href="http://symfinity.bandcamp.com">Bandcamp</a> now! Also the CD is available for now at CD Baby. Tracks are streamable on Spotify/Deezer.</p>
           {news}
 
           <div className="columns">
