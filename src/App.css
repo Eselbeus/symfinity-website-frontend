@@ -34,7 +34,8 @@
 }
 
 .App-link {
-  color: #61dafb;
+  /* color: #61dafb; */
+  color: #777;
 }
 
 .headline-line {
@@ -58,8 +59,16 @@
 
 .component {
   background-color: black;
-  margin-left: 7rem;
-  margin-right: 7rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1130px) {
+  .component {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 }
 
 .header-background {
@@ -74,28 +83,34 @@
   right: 15%;
   top: 1.6rem;
   padding: 1rem;
+  background-color: #11111188;
 }
 
 .nav-elem {
-  color: #333333;
+  /* color: #333333; */
+  color: #CCCCCC;
   padding: 1.2rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   text-decoration: none;
 }
 
+.nav-elem:hover {
+  color: #CCCCCC77;
+}
+
 .page-title {
   text-align: center;
   padding: 3rem;
-  background-color: #EEE;
+  background-color: #CCC;
   font-family: "Montserrat", sans-serif;
 }
 
 .important-text {
   font-family: "Montserrat", sans-serif;
   color: #444;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   line-height: 2rem;
@@ -104,18 +119,233 @@
 .text {
   font-family: "Montserrat", sans-serif;
   color: #888;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-size: 1rem;
   line-height: 2rem;
 }
 
 .logo-pic {
   object-fit: scale-down;
-  width: 26%;
-  height: 26%;
+  width: 20rem;
+  height: 5rem;
   position: absolute;
-  top: -2.5rem;
-  left: 10rem;
-  opacity: 0.7;
+  top: 1rem;
+  left: 8%;
+  opacity: 0.9;
+  background-color: #11111188;
+  border-image: none !important;
+}
+
+.logo-pic:hover {
+  opacity: 1;
+}
+
+@media (max-width: 660px) {
+  .logo-pic {
+    width: 55%;
+    height: 17%;
+    top: -0.8rem;
+  }
+}
+
+
+.footer {
+  text-align: center;
+  color: white;
+  background-color: #222;
+  padding: 1rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  color: #777;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.shows-container {
+  float: left;
+  width: 66%;
+}
+
+@media (max-width: 1024px) {
+  .shows-container {
+    float: none;
+    width: 100%;
+  }
+}
+
+.shows-page-pics {
+  max-width: 350px;
+  max-height: 350px;
+  padding: 1rem;
+}
+
+.biopage-imgs {
+  max-height: 300px;
+}
+
+.bio-p {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .bio-p {
+    display: block;
+  }
+  .bio-text-area {
+    text-align: center;
+  }
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: nowrap; */
+}
+
+@media (max-width: 1024px) {
+  .columns {
+    flex-direction: column;
+  }
+}
+
+.columns-left {
+  /* float: left; */
+  padding: 1rem;
+}
+
+.columns-right {
+  /* float: right; */
+  padding: 1rem;
+}
+
+.bandpics {
+  clear: both;
+}
+
+.seannImgFront {
+  max-width: 445px;
+  max-height: 372px;
+  padding: 1rem;
+}
+
+@media (max-width: 445px) {
+  .seannImgFront {
+    max-width: 100%;
+  }
+}
+
+.musicPage {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1220px) {
+  .musicPage {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 600px;
+  }
+}
+
+@media (max-width: 620px) {
+  .musicPage {
+    display: grid;
+    grid-template-columns: auto;
+    width: 300px;
+  }
+}
+
+@media (max-width: 414px) {
+  .musicPage {
+    width: 414px;
+  }
+  .spotify-player {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .vids {
+    display: grid;
+    grid-template-columns: auto;
+    /* width: 300px; */
+  }
+  .youtubevid {
+    width: 100%
+  }
+}
+
+.follow {
+  padding: 2rem;
+}
+
+.nav-mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #11111188;
+}
+
+@media (max-width: 1130px) {
+  .nav {
+    display: none;
+  }
+  .nav-bar {
+    background-color: #11111111;
+    right: 0px;
+    top: 0rem;
+  }
+}
+
+@media (min-width: 1130px) {
+  .hamburger {
+    display: none;
+  }
+  .hamburgerDropDown {
+    display: none;
+  }
+}
+
+.news {
+  width: 90%;
+}
+
+.bandpics {
+  text-align: center;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 800px) {
+  .pic {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pic {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 560px) {
+  .main-page-vid {
+    width: 100%;
+    height: 100%;
+  }
 }
