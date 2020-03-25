@@ -126,11 +126,11 @@
 }
 
 .logo-pic {
-  object-fit: scale-down;
+  /* object-fit: scale-down; */
   width: 20rem;
   height: 5rem;
   position: absolute;
-  top: 1rem;
+  top: 0.5rem;
   left: 8%;
   opacity: 0.9;
   background-color: #11111188;
@@ -141,11 +141,27 @@
   opacity: 1;
 }
 
+@media (max-width: 860px) {
+  .logo-pic {
+    width: 15rem;
+    height: 4rem;
+    top: 0.2rem;
+  }
+}
+
 @media (max-width: 660px) {
   .logo-pic {
-    width: 55%;
-    height: 17%;
-    top: -0.8rem;
+    width: 12rem;
+    height: 3rem;
+    top: 0rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .logo-pic {
+    width: 10rem;
+    height: 2.5rem;
+    top: 0rem;
   }
 }
 
