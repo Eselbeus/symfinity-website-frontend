@@ -328,6 +328,9 @@ a {
   .hamburgerDiv {
     display: none;
   }
+  .nav > div {
+    display: none;
+  }
 }
 
 .news {
