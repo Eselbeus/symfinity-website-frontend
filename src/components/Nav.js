@@ -71,7 +71,7 @@ class Nav extends React.Component {
                   <NavLink className="nav-elem" to="/shows">SHOWS</NavLink>
                   <NavLink className="nav-elem" to="/music">MUSIC</NavLink>
                   <NavLink className="nav-elem" to="/media">MEDIA</NavLink>
-                  <a className="nav-elem" href="http://symfinity.bandcamp.com">MERCH</a>
+                  <a className="nav-elem" target="_blank" href="http://symfinity.bandcamp.com">MERCH</a>
                   <NavLink className="nav-elem" to="/contact">GET IN TOUCH</NavLink>
                 </nav>
                 { this.state.open ?  this.mobileNav() : this.displayHamburgerMenu()}
