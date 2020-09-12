@@ -55,23 +55,23 @@ class App extends React.Component {
   }
 
   render(){
-    let news;
-    let authors;
-    let author;
-    if (this.state != null){
-      news = this.state.newsItems
-      authors = this.state.authors
-      if (news != undefined){
-        news = news.map(item => {
-          if (this.state.authors != undefined){
-            author = this.state.authors.find(author => {
-              return author.id === item.user_id
-            })
-          }
-          return <NewsUpdate item={item} author={author}/>
-        })
-      }
-    }
+    // let news;
+    // let authors;
+    // let author;
+    // if (this.state != null){
+    //   news = this.state.newsItems
+    //   authors = this.state.authors
+    //   if (news != undefined){
+    //     news = news.map(item => {
+    //       if (this.state.authors != undefined){
+    //         author = this.state.authors.find(author => {
+    //           return author.id === item.user_id
+    //         })
+    //       }
+    //       return <NewsUpdate item={item} author={author}/>
+    //     })
+    //   }
+    // }
 
 
 // <h6>All News</h6>
@@ -84,7 +84,7 @@ class App extends React.Component {
           <div className="news">
           <h2>Latest News</h2>
           <p className="text news">Symfinity just released a new album called Anthem!!!! Get it on <a href="http://symfinity.bandcamp.com">Bandcamp</a> now! Also the CD is available for now at CD Baby. Tracks are streamable on Spotify/Deezer.</p>
-          {news}
+          
 
           <div className="columns">
             <div className="columns-left">
